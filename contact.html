@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>culinarycanvas.com - Contact Us</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="recipes.html">RECIPES</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <a href="index.html" class="logo"><img src="logo.webp" alt="Culinary Canvas Logo"></a>
+</nav>
+
+<section id="home" class="hero">
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="submit_form.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section>
+
+<footer>
+    culinarycanvas.com<br>
+    <a href="mailto:info@culinarycanvas.com">info@culinarycanvas.com</a>
+</footer>
+
+</body>
+</html>
